@@ -19,7 +19,7 @@ var app = builder.Build();
 
 //getapi call for intro page
 DateTime datetime_var = DateTime.Now;
-app.MapGet("/", () => $"                WELCOME TO THE 'CENTER OF SCHOOL' - THE TRAINING CENTER                                                             Time- {datetime_var}");
+app.MapGet("/", () => $"                WELCOME TO THE 'CENTER OF SCHOOL' - THE TRAINING CENTER                                                             Time- {datetime_var}\n\n\n '/'- Home page \n '/getapi/training_center_list'- get all center details \n '/postapi/add_center_details'- insert new center information");
 
 //get api call for fetch all center details
 app.MapGet("/getapi/training_center_list", async (mongo_operation_service mongo_operation_service) =>
