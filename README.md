@@ -6,10 +6,10 @@ Taking the center information from User and validating those in proper manner fo
 
 Requirements-
 ----------------------------------------
-Programming Language- C#
-Framework - .NET Framework
-Database - MongoDB
-Testing Tool - Postman
+1. Programming Language- C#
+2. Framework - .NET Framework
+3. Database - MongoDB
+4. Testing Tool - Postman
 
 
 API used -
